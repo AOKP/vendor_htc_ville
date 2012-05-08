@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ville/proprietary/lib/libbeatscorehtc.so:system/lib/libbeatscorehtc.so \
   vendor/htc/ville/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
   vendor/htc/ville/proprietary/lib/libsrscorehtc.so:system/lib/libsrscorehtc.so \
-  vendor/htc/ville/proprietary/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
   vendor/htc/ville/proprietary/lib/libchromatix_s5k3h2yx_default_video.so:system/lib/libchromatix_s5k3h2yx_default_video.so \
   vendor/htc/ville/proprietary/lib/libchromatix_s5k3h2yx_hdr.so:system/lib/libchromatix_s5k3h2yx_hdr.so \
   vendor/htc/ville/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
