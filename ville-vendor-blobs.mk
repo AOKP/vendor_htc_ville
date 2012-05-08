@@ -80,7 +80,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ville/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/ville/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
   vendor/htc/ville/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-  vendor/htc/ville/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
   vendor/htc/ville/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/ville/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/ville/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
