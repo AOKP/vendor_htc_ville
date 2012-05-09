@@ -35,19 +35,13 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ville/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/ville/proprietary/bin/time_daemon:system/bin/time_daemon \
   vendor/htc/ville/proprietary/bin/zchgd:system/bin/zchgd \
-  vendor/htc/ville/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
-  vendor/htc/ville/proprietary/lib/libalsa-intf.so:system/lib/libalsa-intf.so \
-  vendor/htc/ville/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-  vendor/htc/ville/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-  vendor/htc/ville/proprietary/lib/libbeatscorehtc.so:system/lib/libbeatscorehtc.so \
-  vendor/htc/ville/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
-  vendor/htc/ville/proprietary/lib/libsrscorehtc.so:system/lib/libsrscorehtc.so \
   vendor/htc/ville/proprietary/lib/libchromatix_s5k3h2yx_default_video.so:system/lib/libchromatix_s5k3h2yx_default_video.so \
   vendor/htc/ville/proprietary/lib/libchromatix_s5k3h2yx_hdr.so:system/lib/libchromatix_s5k3h2yx_hdr.so \
   vendor/htc/ville/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
   vendor/htc/ville/proprietary/lib/libchromatix_s5k3h2yx_preview.so:system/lib/libchromatix_s5k3h2yx_preview.so \
   vendor/htc/ville/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:system/lib/libchromatix_s5k3h2yx_zsl.so \
   vendor/htc/ville/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+  vendor/htc/ville/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
   vendor/htc/ville/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/ville/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/ville/proprietary/lib/libDxOAF.so:system/lib/libDxOAF.so \
@@ -80,6 +74,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ville/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/ville/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
   vendor/htc/ville/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+  vendor/htc/ville/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
   vendor/htc/ville/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/ville/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/ville/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
@@ -98,7 +93,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ville/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
   vendor/htc/ville/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/ville/proprietary/lib/hw/sensors.ville.so:system/lib/hw/sensors.ville.so \
-  vendor/htc/ville/proprietary/lib/libv8.so:system/lib/libv8.so \
-  vendor/htc/ville/proprietary/lib/hw/audio_policy.msm8960.so:system/lib/hw/audio_policy.msm8960.so \
-  vendor/htc/ville/proprietary/lib/hw/audio.primary.msm8960.so:system/lib/hw/audio.primary.msm8960.so \
-  vendor/htc/ville/proprietary/lib/hw/alsa.msm8960.so:system/lib/hw/alsa.msm8960.so
+  vendor/htc/ville/proprietary/lib/libv8.so:system/lib/libv8.so
